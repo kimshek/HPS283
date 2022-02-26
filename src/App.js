@@ -1,9 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Component from './component.js';
-
-
-
 
 function App() {
   return (
@@ -21,7 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <Component text = "I'm just here to learn"/>
       </header>
     </div>
   );
