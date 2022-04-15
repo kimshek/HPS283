@@ -10,11 +10,13 @@ function Timeline(props) {
       }, [])
     return (
         <div>
-            <p style={{textAlign: 'left', color:'black', paddingLeft: '2%'}}>Overview of the different 
+            <p style={{textAlign: 'center', color:'black', paddingLeft: '2%'}}>Overview of the different 
             inventions and events at Bletchley Park as well as some the events in the future that they 
             impacted
             </p>
-            <VerticalTimeline>
+            <VerticalTimeline
+                lineColor = 'black'
+            >
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}

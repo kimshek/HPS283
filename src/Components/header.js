@@ -120,7 +120,7 @@ export default function Header() {
         
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Timeline of Major Events </h1>
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}> Timeline of Major Events </h1>
         <Timeline/>
       </TabPanel>
       <TabPanel value={value} index={2}>
