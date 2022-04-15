@@ -20,7 +20,7 @@ function Home(props) {
                 Bletchley Park would be shrouded in immense secrecy even after its operations eventually ceased in 1946 after world war II []. Despite its closure, the work that took place 
                 there would go on to foster influential figures to modern engineering such as Alan Turing and Max Newman.</p>
             </div>
-            <Box style={{backgroundColor:"black"}}>
+            {/* <Box style={{backgroundColor:"black"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
                     <Grid item xs={5} >
                         <img src={wrens} style={{width:'80%', paddingLeft:'20%', paddingTop: '20%', paddingBottom: '10%'}}/>
@@ -52,7 +52,7 @@ function Home(props) {
                         <p style={{textAlign: 'left', color:'white', paddingLeft: "10%"}}>Those who worked included the Wrens</p>
                     </Grid>
                 </Grid>
-            </Box>
+            </Box> */}
 
         </Box>
 

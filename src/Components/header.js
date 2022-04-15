@@ -12,6 +12,10 @@ import Workers from './workers';
 import AlanTuring from './alanTuring';
 import MaxNewman from './maxNewman';
 import Home from './home';
+import bletchleyPark from '../Pictures/bletchleyPark.jpg';
+import wrens from '../Pictures/WrensModified.jpg';
+import maxNewman from '../Pictures/maxNewman.jpg';
+import alanTuring from '../Pictures/alanTuring.jpg';
 
 
 function TabPanel(props: TabPanelProps) {
@@ -78,16 +82,40 @@ export default function Header() {
             
           {/* </Box> */}
         <Home/>
-        {/* <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
-          
-              <Tab label={<span style={{ color: 'black' }}>Timeline</span>} {...a11yProps(2)} />
-              <Tab label={<span style={{ color: 'black' }}>Workers</span>} {...a11yProps(3)} />
+        <Box style={{backgroundColor:"black"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
+                    <Grid item xs={5} >
+                        <img src={wrens} style={{width:'80%', paddingLeft:'20%', paddingTop: '20%', paddingBottom: '10%'}}/>
+                    </Grid>
+                    <Grid item xs={7}>
+                        <h1 onClick={() =>setValue(2)} style={{textAlign: 'left', color:'white', paddingLeft: "10%", paddingTop: '15%'}}> The Workers </h1>
+                        <p style={{textAlign: 'left', color:'white', paddingLeft: "10%"}}>Those who worked included the Wrens</p>
+                    </Grid>
+                </Grid>
+            </Box>
+            <Box style={{backgroundColor:"black"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
+                    <Grid item xs={7}>
+                        <h1 onClick={() =>setValue(3)} style={{textAlign: 'right', color:'white', paddingRight: "10%", paddingTop: '15%'}}> Alan Turing </h1>
+                        <p style={{textAlign: 'right', color:'white', paddingRight: "10%"}}>Those who worked included the Wrens</p>
+                    </Grid>
+                    <Grid item xs={5} >
+                        <img src={alanTuring} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
+                    </Grid>
+                </Grid>
+            </Box>
+            <Box style={{backgroundColor:"black"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
+                    <Grid item xs={5} >
+                        <img src={maxNewman} style={{width:'80%', paddingLeft:'20%', paddingTop: '10%', paddingBottom: '20%'}}/>
+                    </Grid>
+                    <Grid item xs={7}>
+                        <h1 onClick={() =>setValue(4)} style={{textAlign: 'left', color:'white', paddingLeft: "10%", paddingTop: '15%'}}> Max Newman </h1>
+                        <p style={{textAlign: 'left', color:'white', paddingLeft: "10%"}}>Those who worked included the Wrens</p>
+                    </Grid>
+                </Grid>
+            </Box>
 
-            </Tabs> */}
-        {/* <br />
-        <br />
-        <br />
-        <br /> */}
         
       </TabPanel>
       <TabPanel value={value} index={1}>
