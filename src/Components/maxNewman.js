@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import maxNewman from '../Pictures/maxNewman.jpg';
 
 function MaxNewman(props) {
     useEffect(() => {
@@ -6,9 +9,19 @@ function MaxNewman(props) {
       }, [])
     return (
         <div>
-            <p style={{textAlign: 'left', color:'black', paddingLeft: '2%'}}>Max Newman had a significant impact on the decryption efforts of World War 2 and the development of computers we 
-            know today.
-            </p>
+            <Box style={{backgroundColor:"white"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
+                    <Grid item xs={7}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%', paddingTop: '5%'}}>Max Newman had a significant impact on the decryption efforts of World War 2 and the development of computers we 
+                        know today.
+                        </p>
+                    </Grid>
+                    <Grid item xs={5} >
+                        <img src={maxNewman} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
+                    </Grid>
+                </Grid>
+            </Box>
+            
         <h1 style={{textAlign: 'left', color:'black', paddingLeft: '2%'}} >During the War</h1>
             <p style={{textAlign: 'left', color:'black', paddingLeft: '2%'}}>As the war progressed, German encryption advanced. One of these was the advancements was the Tunny encryption 
             which encrypted messages from Hitler and his high officials to the battleground Due to the fact that these messages 
