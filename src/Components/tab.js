@@ -15,11 +15,11 @@ class Tab extends React.Component {
     }
   
     render() {
-      const tabClassName = this.props.isSelected ? 'tab tab--selected' : 'tab';
+      const tabClassName = 'tab';
   
       return (
-        <span className={tabClassName} onClick={this._handleClick}>
-          <span className="tab__label">{this.props.label}</span>
+        <span onClick={this._handleClick}>
+          <span >{this.props.label}</span>
         </span>
       );
     }
