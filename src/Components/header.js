@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import '../Style/style.css'
 import Timeline from './timeline';
 import WorkCited from './workCited';
 import Workers from './workers';
@@ -25,7 +26,7 @@ function TabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -48,27 +49,46 @@ export default function Header() {
   };
 
   return (
+    <div>
     <Box sx={{ width: '100%', backgroundColor: 'white'}}>
-      <Grid container spacing={1} sx={{ backgroundColor: 'white', height: '56px'}}>
-        <Grid item xs={4}>
-          <h2> Bletchley Park </h2>
+      <Grid container spacing={1} sx={{ backgroundColor: 'black', height: '56px'}}>
+        <Grid item xs={2} >
+          <Grid container justifyContent="center">
+            <p style={{color:'white'}}> Bletchley Park </p>
+          </Grid>
+        </Grid>
+        <Grid item xs={2}>
         </Grid>
         <Grid item xs={8}>
-          <Box sx={{ borderColor: 'divider', backgroundColor: 'white', width: '100%', height: '48px'}}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{ float:'right'}}>
-              <Tab label="Home" {...a11yProps(0)} />
-              <Tab label="Timeline" {...a11yProps(1)} />
-              <Tab label="Workers" {...a11yProps(2)} />
-              <Tab label="Alan Turing" {...a11yProps(3)} />
-              <Tab label="Max Newman" {...a11yProps(4)} />
-              <Tab label="Work Cited" {...a11yProps(5)} />
+          <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
+              <Tab label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
+              <Tab label={<span style={{ color: 'white' }}>Timeline</span>} {...a11yProps(1)} />
+              <Tab label={<span style={{ color: 'white' }}>Workers</span>} {...a11yProps(2)} />
+              <Tab label={<span style={{ color: 'white' }}>Alan Turing</span>} {...a11yProps(3)} />
+              <Tab label={<span style={{ color: 'white' }}>Max Newman</span>} {...a11yProps(4)} />
+              <Tab label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} />
             </Tabs>
           </Box>
         </Grid>
       </Grid>
       
       <TabPanel value={value} index={0}>
+      {/* <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}> */}
+            
+          {/* </Box> */}
         <Home/>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
+          
+              <Tab label={<span style={{ color: 'black' }}>Timeline</span>} {...a11yProps(2)} />
+              <Tab label={<span style={{ color: 'black' }}>Workers</span>} {...a11yProps(3)} />
+
+            </Tabs>
+        <br />
+        <br />
+        <br />
+        <br />
+        
       </TabPanel>
       <TabPanel value={value} index={1}>
         <h1>Timeline of Major Events</h1>
@@ -90,5 +110,30 @@ export default function Header() {
         <WorkCited/>
       </TabPanel>
     </Box>
+    <div style={{position:'fixed', bottom: '0',left:'0', right:'0'}}> 
+      <Grid container spacing={1} sx={{ backgroundColor: 'black', height: '56px'}}>
+        <Grid item xs={2} >
+          <Grid container justifyContent="center">
+            <p style={{color:'white'}}> Bletchley Park </p>
+          </Grid>
+        </Grid>
+        <Grid item xs={2}>
+        </Grid>
+        <Grid item xs={8}>
+          <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
+              <Tab label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
+              <Tab label={<span style={{ color: 'white' }}>Timeline</span>} {...a11yProps(1)} />
+              <Tab label={<span style={{ color: 'white' }}>Workers</span>} {...a11yProps(2)} />
+              <Tab label={<span style={{ color: 'white' }}>Alan Turing</span>} {...a11yProps(3)} />
+              <Tab label={<span style={{ color: 'white' }}>Max Newman</span>} {...a11yProps(4)} />
+              <Tab label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} />
+            </Tabs>
+          </Box>
+        </Grid>
+      </Grid>
+    </div>
+  </div>
+
   );
 }

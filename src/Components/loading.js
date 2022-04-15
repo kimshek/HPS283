@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import rotor from '../Pictures/rotor.png';
-import '../Style/loading.css'
+import '../Style/style.css'
 import Header from './header';
 console.log(rotor)
 

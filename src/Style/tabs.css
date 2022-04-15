@@ -1,5 +1,5 @@
 body {
-    background-color: #6D7993;
+    background-color: white;
 }
 
 .tab-panel__header {
@@ -11,13 +11,13 @@ body {
 
 .tab-panel__content {
     background-color: #D5D5D5;
-    border: 1px solid #9099A2;
-    height: auto;
+    border: 1px solid white;
+    height: 100%;
 } 
 
 .tab {
     background-color: #D5D5D5;
-    border: 1px solid #9099A2;
+    border: 1px solid white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     color: #96858F;
@@ -34,12 +34,12 @@ body {
 }
 
 .tab:hover {
-    color: #6D7993;
+    color: white;
 }
 
 .tab--selected {
-    border-bottom: 1px solid #D5D5D5;
-    color: #6D7993;
+    border-bottom: 1px solid white;
+    color: white;
     font-size: 14px;
     font-weight: bold;
     padding-top: 6px;
