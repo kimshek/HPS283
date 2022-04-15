@@ -55,10 +55,10 @@ export default function Header() {
   return (
     <div>
     <Box sx={{ width: '100%', backgroundColor: 'white'}}>
-      <Grid container spacing={1} sx={{ backgroundColor: 'black', height: '56px'}}>
+      <Grid container sx={{ backgroundColor: 'black', height: '56px'}}>
         <Grid item xs={2} >
-          <Grid container justifyContent="center">
-            <p style={{color:'white'}}> Bletchley Park </p>
+          <Grid container style={{paddingLeft: '10%'}}>
+            <p style={{color:'white',fontWeight: "bold", fontSize:'14pt'}}> Bletchley Park </p>
           </Grid>
         </Grid>
         <Grid item xs={2}>
