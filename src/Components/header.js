@@ -78,35 +78,35 @@ export default function Header() {
             
           {/* </Box> */}
         <Home/>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
+        {/* <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} >
           
               <Tab label={<span style={{ color: 'black' }}>Timeline</span>} {...a11yProps(2)} />
               <Tab label={<span style={{ color: 'black' }}>Workers</span>} {...a11yProps(3)} />
 
-            </Tabs>
+            </Tabs> */}
+        {/* <br />
         <br />
         <br />
-        <br />
-        <br />
+        <br /> */}
         
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h1>Timeline of Major Events</h1>
+        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Timeline of Major Events </h1>
         <Timeline/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Workers/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <h1>Alan Turing</h1>
+        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Alan Turing</h1>
         <AlanTuring/>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <h1>Max Newman</h1>
+        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Max Newman</h1>
         <MaxNewman/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <h1>Work Cited</h1>
+        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Work Cited</h1>
         <WorkCited/>
       </TabPanel>
     </Box>
@@ -114,7 +114,7 @@ export default function Header() {
       <Grid container spacing={1} sx={{ backgroundColor: 'black', height: '56px'}}>
         <Grid item xs={2} >
           <Grid container justifyContent="center">
-            <p style={{color:'white'}}> Bletchley Park </p>
+            {/* <p style={{color:'white'}}> Bletchley Park </p> */}
           </Grid>
         </Grid>
         <Grid item xs={2}>

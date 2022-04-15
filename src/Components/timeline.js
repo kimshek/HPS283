@@ -8,10 +8,10 @@ function Timeline(props) {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
                 date="1938"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                 
             >
                 <h3 className="vertical-timeline-element-title">Creation of Bletchley Park</h3>

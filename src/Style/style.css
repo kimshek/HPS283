@@ -16,7 +16,7 @@
 }
 
 .header {
-  font-size: 80px;
+  font-size: 60px;
   color: white;
   text-align: center;
   position: absolute;
@@ -27,12 +27,21 @@
   height: fit-content;
   margin: auto;
   border: 2px solid white;
-  width: 50%
+  width: 40%
 }
 
 .backImg {
   filter:  brightness(50%);
   width: 100%;
+}
+
+.bottomBorderText {
+  text-align: center;
+  height: fit-content;
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 20%;
+  padding-top: 2%;
 }
 
 
