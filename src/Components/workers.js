@@ -1,4 +1,9 @@
+import React, { useState, useEffect } from 'react';
+
 function Workers(props) {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
         <h1>The Locals</h1>

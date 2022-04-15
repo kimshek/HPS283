@@ -5,9 +5,13 @@ import alanTuring from '../Pictures/alanTuring.jpg';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import '../Style/style.css'
+import React, { useState, useEffect } from 'react';
 
 console.log(bletchleyPark)
 function Home(props) {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <Box style={{backgroundColor:"white", height:"100%"}}>
             <img src={bletchleyPark} className="backImg"/>

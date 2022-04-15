@@ -1,9 +1,13 @@
 // timeline from https://www.npmjs.com/package/react-vertical-timeline-component
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import React, { useState, useEffect } from 'react';
 import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline(props) {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
