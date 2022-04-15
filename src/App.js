@@ -13,6 +13,16 @@ import Box from '@mui/material/Box';
 import Header from './Components/header';
 import Loading from './Components/loading';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Navigate
+} from "react-router-dom";
+
+import Home from './Components/home'
+import Workers from './Components/workers'
 
 
 
@@ -20,7 +30,15 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Loading/>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Loading />} />
+            <Route path="workers" element={<Workers />} />
+            {/* <Route path="/" element={<Loading />} /> */}
+          </Routes>
+          {/* <Loading/> */}
+        </Router>
+        {/* <Loading/> */}
       </div>
     );
   }

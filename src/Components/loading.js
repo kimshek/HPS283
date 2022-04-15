@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import rotor from '../Pictures/rotor.png';
 import '../Style/style.css'
 import Header from './header';
+
+import { Link } from "react-router-dom";
 console.log(rotor)
 
 
@@ -17,6 +19,7 @@ const Loading = props => {
 
   return (show ? (
     <div>
+      
         <div className="center">
         <img src={rotor} className="rotate" />
         
