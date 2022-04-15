@@ -4,16 +4,15 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import bletchleyPark from '../Pictures/bletchleyPark.jpg';
+
 import Grid from '@mui/material/Grid';
 import Timeline from './timeline';
 import WorkCited from './workCited';
 import Workers from './workers';
 import AlanTuring from './alanTuring';
 import MaxNewman from './maxNewman';
+import Home from './home';
 
-
-console.log(bletchleyPark)
 
 function TabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
@@ -70,11 +69,7 @@ export default function Header() {
       </Grid>
       
       <TabPanel value={value} index={0}>
-        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
-          <h1>Bletchley Park</h1>
-        </div>
-        
-        <img src={bletchleyPark}/>
+        <Home/>>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <h1>Timeline of Major Events</h1>
