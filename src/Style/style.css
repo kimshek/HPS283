@@ -44,6 +44,10 @@
   padding-top: 2%;
 }
 
+.dateBlack {
+  color: black;
+}
+
 
 @keyframes rotation {
     from {

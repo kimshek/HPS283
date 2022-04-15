@@ -19,12 +19,13 @@ function Timeline(props) {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
-                    date="1938"
+                    date= "1938"
+                    dateClassName='dateBlack'
                     iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
-                    <h3 className="vertical-timeline-element-title">Creation of Bletchley Park</h3>
-                    <h4 className="vertical-timeline-element-subtitle">1938</h4>
+                    <h3 className="vertical-timeline-element-title" >Creation of Bletchley Park</h3>
+                    <h4 className="vertical-timeline-element-subtitle" >1938</h4>
                     <p> The land and house in which Bletchley Park was situated was purchased in 1938 
                     by the Secret Intelligence Service to provide a place for the Government Code and 
                     Cypher School to work in case a war started [7, p33]. Staff started moving to the 
@@ -34,8 +35,11 @@ function Timeline(props) {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="1939"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1939"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Official Secrets Act</h3>
@@ -48,10 +52,11 @@ function Timeline(props) {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="1940"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1940"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Bombe</h3>
@@ -63,8 +68,11 @@ function Timeline(props) {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="1944"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1944"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Colossus</h3>
@@ -76,10 +84,26 @@ function Timeline(props) {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="1948"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1946"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    
+                >
+                    <h3 className="vertical-timeline-element-title">Closure of Bletchley Park</h3>
+                    <h4 className="vertical-timeline-element-subtitle">1946</h4>
+                    <p> This is when the wartime operations at Bletchely Park ceased.
+                    </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1948"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Manchester Baby</h3>
@@ -91,8 +115,11 @@ function Timeline(props) {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="1950"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1950"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Turing Test</h3>
@@ -103,10 +130,11 @@ function Timeline(props) {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="1970s"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(00, 00, 00)' }}
+                    date= "1970s"
+                    dateClassName='dateBlack'
+                    iconStyle={{ background: 'rgb(00, 00, 00)', color: '#fff' }}
                     
                 >
                     <h3 className="vertical-timeline-element-title">Information Declassified</h3>
