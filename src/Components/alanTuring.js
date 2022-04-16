@@ -20,7 +20,7 @@ function AlanTuring(props) {
                         </p>
                     </Grid>
                     <Grid item xs={6} >
-                        <img src={alanTuringModifiedBlack} style={{width:'90%', paddingRight:'40%', paddingTop: '5%', paddingBottom: '10%'}}/>
+                        <img src={alanTuringModifiedBlack} style={{width:'90%', paddingTop: '5%', paddingBottom: '10%'}}/>
                     </Grid>
                 </Grid>
             </Box>
