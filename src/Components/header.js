@@ -89,40 +89,34 @@ export default function Header() {
       
       <TabPanel value={value} index={0}>
         <Home/>
-        <Box style={{backgroundColor:"black"}}>
-                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
-                    <Grid item xs={5} >
-                        <img src={wrens} style={{width:'80%', paddingLeft:'20%', paddingTop: '20%', paddingBottom: '10%'}}/>
-                    </Grid>
-                    <Grid item xs={7}>
-                        <h1 onClick={() =>setValue(2)} style={{textAlign: 'left', color:'white', paddingLeft: "10%", paddingTop: '15%'}}> The Workers </h1>
-                        <p style={{textAlign: 'left', color:'white', paddingLeft: "10%"}}>Those who worked included the Wrens</p>
-                    </Grid>
+        <Box style={{backgroundColor:"white"}}>
+            <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
+                <Grid item xs={4}>
+                    <img src={wrens} style={{width:'80%', paddingLeft: '20%', paddingTop: '10%'}}/>
+                    <h1 onClick={() =>setValue(2)} style={{textAlign: 'center', color:'black', paddingLeft:'20%'}}> The Workers</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '20%', paddingBottom: '20%'}}>
+                        Sworn to secrey, the contributions of the workers at Bletchley Park, including those of the female 
+                        employees termed Wrens, would stay hidden from the public even years after operations ceased.
+                        </p>
                 </Grid>
-            </Box>
-            <Box style={{backgroundColor:"black"}}>
-                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
-                    <Grid item xs={7}>
-                        <h1 onClick={() =>setValue(3)} style={{textAlign: 'right', color:'white', paddingRight: "10%", paddingTop: '15%'}}> Alan Turing </h1>
-                        <p style={{textAlign: 'right', color:'white', paddingRight: "10%"}}>Those who worked included the Wrens</p>
-                    </Grid>
-                    <Grid item xs={5} >
-                        <img src={alanTuring} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
-                    </Grid>
+                <Grid item xs={4} >
+                    <img src={wrens} style={{width:'80%', paddingLeft: '10%', paddingTop: '10%'}}/>
+                    <h1 onClick={() =>setValue(3)} style={{textAlign: 'center', color:'black'}}>Alan Turing</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '10%', paddingRight: '10%', paddingBottom: '5%'}}>
+                        Alan Turing played a pivotal role in decryption of enemy messages during the war but also in the 
+                        birth of artificial intelligence.
+                        </p>
                 </Grid>
-            </Box>
-            <Box style={{backgroundColor:"black"}}>
-                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
-                    <Grid item xs={5} >
-                        <img src={maxNewman} style={{width:'80%', paddingLeft:'20%', paddingTop: '10%', paddingBottom: '20%'}}/>
-                    </Grid>
-                    <Grid item xs={7}>
-                        <h1 onClick={() =>setValue(4)} style={{textAlign: 'left', color:'white', paddingLeft: "10%", paddingTop: '15%'}}> Max Newman </h1>
-                        <p style={{textAlign: 'left', color:'white', paddingLeft: "10%"}}>Those who worked included the Wrens</p>
-                    </Grid>
+                <Grid item xs={4} >
+                    <img src={wrens} style={{width:'80%', paddingTop: '10%'}}/>
+                    <h1 onClick={() =>setValue(4)} style={{textAlign: 'center', color:'black', paddingRight: '20%'}}>Max Newman</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingRight: '20%', paddingBottom: '5%'}}>
+                        Max Newman had a significant impact on the decryption efforts of World War II at Bletchley Park and the 
+                        development of the computers that we know today. 
+                        </p>
                 </Grid>
-            </Box>
-
+            </Grid>
+        </Box>
         
       </TabPanel>
       <TabPanel value={value} index={1}>
