@@ -55,7 +55,7 @@ export default function Header() {
   return (
     <div>
     <Box sx={{ width: '100%', backgroundColor: 'white'}}>
-      <Grid container sx={{ backgroundColor: 'black', height: '56px'}}>
+      <Grid container sx={{ backgroundColor: 'black', height: '50px'}}>
         <Grid item xs={2} >
           <Grid container style={{paddingLeft: '10%'}}>
             <p style={{color:'white',fontWeight: "bold", fontSize:'14pt'}}> Bletchley Park </p>
@@ -65,23 +65,18 @@ export default function Header() {
         </Grid>
         <Grid item xs={8}>
           <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} indicatorColor={""}  >
-              {/* <Tab label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} /> */}
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} value={value} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
               <Tab onClick={() =>setValue(1)} label={<span style={{ color: 'white' }}>Timeline</span>} {...a11yProps(1)} />
               <Tab onClick={() =>setValue(2)} label={<span style={{ color: 'white' }}>Workers</span>} {...a11yProps(2)} />
               <Tab onClick={() =>setValue(3)} label={<span style={{ color: 'white' }}>Alan Turing</span>} {...a11yProps(3)} />
               <Tab onClick={() =>setValue(4)} label={<span style={{ color: 'white' }}>Max Newman</span>} {...a11yProps(4)} />
-              {/* <Tab label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} /> */}
             </Tabs>
           </Box>
         </Grid>
       </Grid>
       
       <TabPanel value={value} index={0}>
-      {/* <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}> */}
-            
-          {/* </Box> */}
         <Home/>
         <Box style={{backgroundColor:"black"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
@@ -143,19 +138,14 @@ export default function Header() {
       <Grid container spacing={1} sx={{ backgroundColor: 'black', height: '56px'}}>
         <Grid item xs={2} >
           <Grid container justifyContent="center">
-            {/* <p style={{color:'white'}}> Bletchley Park </p> */}
           </Grid>
         </Grid>
         <Grid item xs={2}>
         </Grid>
         <Grid item xs={8}>
           <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
-            <Tabs value={value} aria-label="basic tabs" sx={{ float:'right'}} indicatorColor={""} >
+            <Tabs value={value} aria-label="basic tabs" sx={{ float:'right'}} value={value} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
-              {/* <Tab label={<span style={{ color: 'white' }}>Timeline</span>} {...a11yProps(1)} />
-              <Tab label={<span style={{ color: 'white' }}>Workers</span>} {...a11yProps(2)} />
-              <Tab label={<span style={{ color: 'white' }}>Alan Turing</span>} {...a11yProps(3)} />
-              <Tab label={<span style={{ color: 'white' }}>Max Newman</span>} {...a11yProps(4)} /> */}
               <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} />
             </Tabs>
           </Box>
