@@ -52,6 +52,16 @@ export default function Header() {
     setValue(newValue);
   };
 
+  const bottomTabsHandler = () => {
+    // console.log(value)
+    if(value == 1){
+      return 3;
+    }else if (value == 5){
+      return 1;
+    } else {
+      return value;
+    }
+  }
   return (
     <div>
     <Box sx={{ width: '100%', backgroundColor: 'white'}}>
@@ -143,10 +153,10 @@ export default function Header() {
         </Grid>
         <Grid item xs={8}>
           <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
-            <Tabs value={value} aria-label="basic tabs" sx={{ float:'right'}} 
-              TabIndicatorProps={{style: {backgroundColor: "#fff"}}} value={value} >
+            <Tabs value={bottomTabsHandler()} aria-label="basic tabs" sx={{ float:'right'}} 
+              TabIndicatorProps={{style: {backgroundColor: "#fff"}}} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
-              <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} />
+              <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(1)} />
             </Tabs>
           </Box>
         </Grid>
