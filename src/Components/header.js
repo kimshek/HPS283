@@ -12,10 +12,9 @@ import Workers from './workers';
 import AlanTuring from './alanTuring';
 import MaxNewman from './maxNewman';
 import Home from './home';
-import bletchleyPark from '../Pictures/bletchleyPark.jpg';
-import wrens from '../Pictures/WrensModified.jpg';
-import maxNewman from '../Pictures/maxNewman.jpg';
-import alanTuring from '../Pictures/alanTuring.jpg';
+import wrensCropped from '../Pictures/wrensCropped.jpg';
+import maxNewmanCropped from '../Pictures/maxNewmanCropped.jpg';
+import alanTuringCropped from '../Pictures/alanTuringCropped.jpg';
 
 
 function TabPanel(props: TabPanelProps) {
@@ -92,25 +91,25 @@ export default function Header() {
         <Box style={{backgroundColor:"white"}}>
             <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                 <Grid item xs={4}>
-                    <img src={wrens} style={{width:'80%', paddingLeft: '20%', paddingTop: '10%'}}/>
+                    <img src={wrensCropped} style={{width:'70%', paddingLeft: '25%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(2)} style={{textAlign: 'center', color:'black', paddingLeft:'20%'}}> The Workers</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '20%', paddingBottom: '20%'}}>
-                        Sworn to secrey, the contributions of the workers at Bletchley Park, including those of the female 
-                        employees termed Wrens, would stay hidden from the public even years after operations ceased.
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '25%', paddingBottom: '20%', paddingRight: '5%'}}>
+                        Sworn to secrey, the contributions of the workers, including those of the Wrens, would 
+                        stay hidden from the public even years after operations ceased.
                         </p>
                 </Grid>
                 <Grid item xs={4} >
-                    <img src={wrens} style={{width:'80%', paddingLeft: '10%', paddingTop: '10%'}}/>
+                    <img src={alanTuringCropped} style={{width:'70%', paddingLeft: '15%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(3)} style={{textAlign: 'center', color:'black'}}>Alan Turing</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '10%', paddingRight: '10%', paddingBottom: '5%'}}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '15%', paddingRight: '15%', paddingBottom: '5%'}}>
                         Alan Turing played a pivotal role in decryption of enemy messages during the war but also in the 
                         birth of artificial intelligence.
                         </p>
                 </Grid>
                 <Grid item xs={4} >
-                    <img src={wrens} style={{width:'80%', paddingTop: '10%'}}/>
+                    <img src={maxNewmanCropped} style={{width:'70%', paddingLeft: '5%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(4)} style={{textAlign: 'center', color:'black', paddingRight: '20%'}}>Max Newman</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingRight: '20%', paddingBottom: '5%'}}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '5%', paddingRight: '25%', paddingBottom: '5%'}}>
                         Max Newman had a significant impact on the decryption efforts of World War II at Bletchley Park and the 
                         development of the computers that we know today. 
                         </p>

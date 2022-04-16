@@ -1,13 +1,7 @@
 import bletchleyPark from '../Pictures/bletchleyPark.jpg';
-import wrens from '../Pictures/WrensModified.jpg';
-import maxNewman from '../Pictures/maxNewman.jpg';
-import alanTuring from '../Pictures/alanTuring.jpg';
-import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import '../Style/style.css'
 import React, { useState, useEffect } from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
 
 console.log(bletchleyPark)
 function Home(props) {
