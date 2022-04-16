@@ -127,11 +127,9 @@ export default function Header() {
         <Workers/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Alan Turing</h1>
         <AlanTuring/>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Max Newman</h1>
         <MaxNewman/>
       </TabPanel>
       <TabPanel value={value} index={5}>

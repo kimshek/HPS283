@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import maxNewman from '../Pictures/maxNewman.jpg';
+import maxNewmanModified from '../Pictures/maxNewmanModified.jpg';
 import colossus from '../Pictures/colossus.jpg';
 import manchesterBaby from '../Pictures/manchesterBaby.jpg';
 
@@ -10,25 +10,30 @@ function MaxNewman(props) {
         window.scrollTo(0, 0)
       }, [])
     return (
-        <div>
-            <Box style={{backgroundColor:"white"}}>
-                <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
-                    <Grid item xs={7}>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%', paddingTop: '5%'}}>Max Newman had a significant impact on the decryption efforts of World War 2 and the development of computers we 
+        <div style={{backgroundColor:"black"}}>
+            <Box style={{backgroundColor:"black"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
+                    <Grid item xs={5}>
+                        <h1 style={{textAlign: 'right', color:'white', paddingLeft:'40%', paddingTop: '40%'}}> Max Newman</h1>
+                        <p style={{textAlign: 'right', color:'white', paddingLeft: '20%', paddingTop: '0%'}}>Max Newman had a significant impact on the decryption efforts of World War 2 and the development of computers we 
                         know today.
                         </p>
                     </Grid>
-                    <Grid item xs={5} >
-                        <img src={maxNewman} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
+                    <Grid item xs={6} >
+                        <img src={maxNewmanModified} style={{width:'90%', paddingRight:'40%', paddingTop: '5%', paddingBottom: '10%'}}/>
                     </Grid>
                 </Grid>
             </Box>
 
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
+                    <Grid item xs={5} >
+                        <img src={colossus} style={{ width:'70%', paddingLeft:'10%', paddingTop: '40%'}}/>
+                    </Grid>
                     <Grid item xs={7}>
-                        <h1 style={{textAlign: 'left', color:'black', paddingLeft: '3%'}}>During the War</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%'}}>As the war progressed, German encryption advanced. One of these was the advancements was the Tunny encryption 
+                        <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>During the War</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingRight: '10%'}}>
+                        As the war progressed, German encryption advanced. One of these was the advancements was the Tunny encryption 
                         which encrypted messages from Hitler and his high officials to the battleground Due to the fact that these messages 
                         came from highly authoritative people, great urgency was placed in this government facility in breaking its code 
                         [9, pg 52] and high pressure was placed on these workers [9, p 52] to solve this complex problem quickly [9, p62]. 
@@ -45,17 +50,17 @@ function MaxNewman(props) {
                         Eisenhower stated that the leverage these machines brought shortened the war by two years[9, p80-81].
                         </p>
                     </Grid>
-                    <Grid item xs={5} >
-                        <img src={colossus} style={{width:'80%', paddingLeft:'5%', paddingTop: '25%', paddingBottom: '10%'}}/>
-                    </Grid>
                 </Grid>
             </Box>
-            
+
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
+                    <Grid item xs={5} >
+                        <img src={manchesterBaby} style={{ width:'70%', paddingLeft:'10%', paddingTop: '35%'}}/>
+                    </Grid>
                     <Grid item xs={7}>
-                        <h1 style={{textAlign: 'left', color:'black', paddingLeft: '3%'}}>After the War</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%'}}>
+                        <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>After the War</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingBottom: '20%'}}>
                         Despite its origins in wartime engineering Max Newman's creations were able to develop into commercializable uses. 
                         After the war, Max Newman created a computing group at the University of Manchester and brought several parts of 
                         the Colossus with him [5]. His group worked on creating the Small Scale Electronic Machine or “Baby” which was the 
@@ -65,9 +70,6 @@ function MaxNewman(props) {
                         Newman’s colleague at Bletchley, pointed out that without the urgency to develop during the war, Newman may have not 
                         gained the experience and confidence in electronics needed to build the first “stored-program digital computer” 
                         </p>
-                    </Grid>
-                    <Grid item xs={5} >
-                        <img src={manchesterBaby} style={{width:'80%', paddingLeft:'5%', paddingTop: '15%', paddingBottom: '20%'}}/>
                     </Grid>
                 </Grid>
             </Box>
