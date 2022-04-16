@@ -65,7 +65,8 @@ export default function Header() {
         </Grid>
         <Grid item xs={8}>
           <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} value={value} >
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs" sx={{ float:'right'}} 
+              TabIndicatorProps={{style: {backgroundColor: "#fff"}}} value={value} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
               <Tab onClick={() =>setValue(1)} label={<span style={{ color: 'white' }}>Timeline</span>} {...a11yProps(1)} />
               <Tab onClick={() =>setValue(2)} label={<span style={{ color: 'white' }}>Workers</span>} {...a11yProps(2)} />
@@ -142,7 +143,8 @@ export default function Header() {
         </Grid>
         <Grid item xs={8}>
           <Box sx={{ borderColor: 'divider', backgroundColor: 'black', width: '100%', height: '48px'}}>
-            <Tabs value={value} aria-label="basic tabs" sx={{ float:'right'}} value={value} >
+            <Tabs value={value} aria-label="basic tabs" sx={{ float:'right'}} 
+              TabIndicatorProps={{style: {backgroundColor: "#fff"}}} value={value} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
               <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(5)} />
             </Tabs>
