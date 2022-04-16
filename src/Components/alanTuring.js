@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import alanTuring from '../Pictures/alanTuring.jpg';
+import alanTuringModifiedBlack from '../Pictures/alanTuringModifiedBlack.jpg';
 import enigma from '../Pictures/enigma.jpg';
 import bombe from '../Pictures/bombe.jpg';
 
@@ -11,24 +11,30 @@ function AlanTuring(props) {
       }, [])
     return (
         <div>
-            <Box style={{backgroundColor:"white"}}>
-                <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
-                    <Grid item xs={7}>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%', paddingTop: '5%'}}>Alan Turing played a pivotal role 
+            <Box style={{backgroundColor:"black"}}>
+                <Grid container spacing={1} sx={{ backgroundColor: 'black'}}>
+                    <Grid item xs={5}>
+                        <h1 style={{textAlign: 'right', color:'white', paddingLeft:'40%', paddingTop: '40%'}}> Alan Turing</h1>
+                        <p style={{textAlign: 'right', color:'white', paddingLeft: '20%'}}>Alan Turing played a pivotal role 
                         in decryption during the war but also in the birth of artificial intelligence. 
                         </p>
                     </Grid>
-                    <Grid item xs={5} >
-                        <img src={alanTuring} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
+                    <Grid item xs={6} >
+                        <img src={alanTuringModifiedBlack} style={{width:'90%', paddingRight:'40%', paddingTop: '5%', paddingBottom: '10%'}}/>
                     </Grid>
                 </Grid>
             </Box>
 
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
+                    <Grid item xs={5} >
+                        <img src={enigma} style={{ width:'50%', paddingLeft:'30%', paddingTop: '15%'}}/>
+                        <img src={bombe} style={{width:'50%', paddingLeft:'30%', paddingTop: '10%', paddingBottom: '10%'}}/>
+                    </Grid>
                     <Grid item xs={7}>
-                        <h1 style={{textAlign: 'left', color:'black', paddingLeft: '3%'}}>During the War</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '3%', paddingTop: '5%'}}>During the war, the Nazis sent radio 
+                        <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>During the War</h1>
+                        <p style={{textAlign: 'left', color:'black', paddingRight: '10%'}}>
+                        During the war, the Nazis sent radio 
                         messages to each other using Enigma machine encryption [2]. Unlike the more destructive forms of 
                         engineering seen in other wars ( atom bombs, guns,etc.) a different wartime engineering was taking 
                         place with Alan Turing as he helped to lead the development of a decryption machine called the Bombe 
@@ -46,13 +52,9 @@ function AlanTuring(props) {
                         [4]. 
                         </p>
                     </Grid>
-                    <Grid item xs={5} >
-                        <img src={enigma} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
-                        <img src={bombe} style={{width:'80%', paddingRight:'20%', paddingTop: '10%', paddingBottom: '10%'}}/>
-                    </Grid>
                 </Grid>
             </Box>
-            
+
         <h1 style={{textAlign: 'left', color:'black', paddingLeft: '2%'}}>After the War</h1>
             <p style={{textAlign: 'left', color:'black', paddingLeft: '2%', paddingBottom: '5%'}}> After the war, Alan Turing still 
             had a major influence on the world we live in today through his thoughts on artificial intelligence. 
