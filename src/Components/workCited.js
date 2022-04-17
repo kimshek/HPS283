@@ -80,13 +80,14 @@ function WorkCited(props) {
         </p>
 
         
-        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>Homepage Citations</h1>
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>Extra Image Citations</h1>
         <p style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>
-        Due to the medium that we chose, we decided not to cite the homepage images directly on the page. <br /> 
-        Below are the citations for those images in order of top to bottom, left to right.
+        Due to the medium that we chose, we decided not to cite the loading and homepage images directly on the page. <br /> 
+        Below are the citations for those images in order of top to bottom, left to right for the homepage.
         <br /> <br /> 
         </p>
-        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%", paddingBottom: '10%'}}>
+        <h2 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}>Homepage</h2>
+        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}>
         PA Media. n.d. BBC. https://www.bbc.com/news/uk-54604895
         <br /> <br /> 
         <i>Female codebreakers: the women of 
@@ -98,6 +99,9 @@ function WorkCited(props) {
         London Mathematical Society. n.d. <i>Maxwell (Max) Newman</i>. Communications of the ACM.
         https://cacm.acm.org/magazines/2013/5/163760-max-newman/fulltext 
         <br /> <br /> 
+        </p>
+        <h2 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}>Loading Page</h2>
+        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%", paddingBottom: '10%'}}>
         <i>One of the UK's big hitters in their decoding arsenal – the Turing Bombe machine</i>. N.d. Forces. https://www.forces.net/news/bletchley-park-key-ww2-victory
         </p>
         </div>
