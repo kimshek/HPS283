@@ -33,8 +33,9 @@ function MaxNewman(props) {
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
-                        <img src={colossus} style={{ width:'70%', paddingLeft:'10%', paddingTop: '40%'}}/>
-                        <p style={{textAlign: 'center'}}>Figure 2: A photograph of the Colossus machine (Good, 1945)</p>
+                        <img src={colossus} style={{ width:'70%', paddingLeft:'15%', paddingTop: '40%'}}/>
+                        <p style={{textAlign: 'left', paddingLeft: '15%', paddingRight:'15%'}}>
+                            Figure 2: A photograph of the Colossus machine (Good, 1945)</p>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>During the War</h1>
@@ -51,8 +52,9 @@ function MaxNewman(props) {
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
-                        <img src={manchesterBaby} style={{ width:'70%', paddingLeft:'10%', paddingTop: '35%'}}/>
-                        <p style={{textAlign: 'center', paddingBottom: '10%'}}>Figure 3: A photograph of the Manchester Baby (Science and Industry Museum, n.d.)</p>
+                        <img src={manchesterBaby} style={{ width:'70%', paddingLeft:'15%', paddingTop: '35%'}}/>
+                        <p style={{textAlign: 'left', paddingLeft: '15%', paddingRight:'15%'}}>
+                            Figure 3: A photograph of the Manchester Baby (Science and Industry Museum, n.d.)</p>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>After the War</h1>
