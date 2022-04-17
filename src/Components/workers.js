@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import wrensCropped from '../Pictures/wrensCropped.jpg';
+import bletchleyParkMap from '../Pictures/bletchleyParkMap.JPG';
+import wrens from '../Pictures/wrens.jpeg';
+import wrensOperatingColossus from '../Pictures/wrensOperatingColossus.jpg';
 
 function Workers(props) {
     useEffect(() => {
@@ -30,7 +33,7 @@ function Workers(props) {
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
-                        <img src={wrensCropped} style={{ width:'70%', paddingLeft:'10%', paddingTop: '40%'}}/>
+                        <img src={bletchleyParkMap} style={{ width:'80%', paddingLeft:'10%', paddingTop: '40%'}}/>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>Secrecy</h1>
@@ -63,7 +66,8 @@ function Workers(props) {
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
-                        <img src={wrensCropped} style={{ width:'70%', paddingLeft:'10%', paddingTop: '40%'}}/>
+                        <img src={wrens} style={{ width:'70%', paddingLeft:'15%', paddingTop: '40%'}}/>
+                        <img src={wrensOperatingColossus} style={{width:'70%', paddingLeft:'15%', paddingTop: '20%', paddingBottom: '10%'}}/>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>The Wrens</h1>
