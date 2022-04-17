@@ -93,7 +93,7 @@ export default function Header() {
                 <Grid item xs={4}>
                     <img src={wrensCropped} style={{width:'70%', paddingLeft: '25%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(2)} style={{textAlign: 'center', color:'black', paddingLeft:'20%'}}> The Workers</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '25%', paddingBottom: '20%', paddingRight: '5%'}}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '25%', paddingBottom: '35%', paddingRight: '5%'}}>
                         Sworn to secrey, the contributions of the workers, including those of the Wrens, would 
                         stay hidden from the public even years after operations ceased.
                         </p>
@@ -101,7 +101,7 @@ export default function Header() {
                 <Grid item xs={4} >
                     <img src={alanTuringCropped} style={{width:'70%', paddingLeft: '15%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(3)} style={{textAlign: 'center', color:'black'}}>Alan Turing</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '15%', paddingRight: '15%', paddingBottom: '5%'}}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '15%', paddingRight: '15%', paddingBottom: '35%'}}>
                         Alan Turing played a pivotal role in decryption of enemy messages during the war but also in the 
                         birth of artificial intelligence.
                         </p>
@@ -109,7 +109,7 @@ export default function Header() {
                 <Grid item xs={4} >
                     <img src={maxNewmanCropped} style={{width:'70%', paddingLeft: '5%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(4)} style={{textAlign: 'center', color:'black', paddingRight: '20%'}}>Max Newman</h1>
-                        <p style={{textAlign: 'left', color:'black', paddingLeft: '5%', paddingRight: '25%', paddingBottom: '5%'}}>
+                        <p style={{textAlign: 'left', color:'black', paddingLeft: '5%', paddingRight: '25%', paddingBottom: '35%'}}>
                         Max Newman had a significant impact on the decryption efforts of World War II at Bletchley Park and the 
                         development of the computers that we know today. 
                         </p>
