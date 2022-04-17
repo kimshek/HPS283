@@ -89,7 +89,7 @@ function Timeline(props) {
                 >
                     <h3 className="vertical-timeline-element-title">Closure of Bletchley Park</h3>
                     <h4 className="vertical-timeline-element-subtitle">1946</h4>
-                    <p> This is when the wartime operations at Bletchely Park ceased.
+                    <p> In 1946, wartime codebreaking operations at Bletchely Park ceased (Grey 2012, 278).
                     </p>
                 </VerticalTimelineElement>
 
@@ -118,7 +118,7 @@ function Timeline(props) {
                     
                 >
                     <h3 className="vertical-timeline-element-title">Turing Test</h3>
-                    <h4 className="vertical-timeline-element-subtitle">England</h4>
+                    <h4 className="vertical-timeline-element-subtitle">1950</h4>
                     <p>
                     Test developed by Alan Turing to see whether a computer is intelligent and can think for itself. To this day, no machine has passed this test (Copeland, n.d.b).
                     </p>

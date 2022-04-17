@@ -24,7 +24,8 @@ function MaxNewman(props) {
                     </Grid>
                     <Grid item xs={6} >
                         <img src={maxNewmanModified} style={{width:'90%', paddingTop: '5%'}}/>
-                        <p style={{textAlign: 'center', color:'white', paddingLeft: '20%', paddingBottom: '30%'}}>Figure 1: A photograph of Max Newman (London Mathematical Society, n.d)</p>
+                        <p style={{textAlign: 'left', color:'white', paddingLeft: '40%', paddingRight: '10%', paddingBottom: '30%'}}>
+                            Figure 1: A photograph of Max Newman (London Mathematical Society, n.d)</p>
                     </Grid>
                 </Grid>
             </Box>

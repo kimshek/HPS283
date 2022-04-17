@@ -25,7 +25,9 @@ function Workers(props) {
                     </Grid>
                     <Grid item xs={6} >
                         <img src={workersModified} style={{width:'90%', paddingTop: '5%'}}/>
-                        <p style={{textAlign: 'center', color:'white', paddingLeft: '20%', paddingBottom: '30%'}}>Figure 1: A photograph of the workers of Bletchley Park (The National WWII Museum, n.d.)</p>
+                        <p style={{textAlign: 'left', color:'white', paddingLeft: '30%', paddingRight: '10%', paddingBottom: '30%'}}>
+                        Figure 1: A photograph of the workers of Bletchley Park (The National WWII Museum, n.d.)
+                        </p>
                     </Grid>
                 </Grid>
             </Box>
