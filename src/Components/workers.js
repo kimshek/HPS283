@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import wrensCropped from '../Pictures/wrensCropped.jpg';
+import workersModified from '../Pictures/workersModified.jpg';
 import bletchleyParkMap from '../Pictures/bletchleyParkMap.JPG';
 import wrens from '../Pictures/wrens.jpeg';
 import wrensOperatingColossus from '../Pictures/wrensOperatingColossus.jpg';
@@ -17,15 +17,14 @@ function Workers(props) {
                     <Grid item xs={5}>
                         <h1 style={{textAlign: 'right', color:'white', paddingLeft:'40%', paddingTop: '40%'}}>The Workers</h1>
                         <p style={{textAlign: 'right', color:'white', paddingLeft: '20%'}}>
-                        While working at Bletchley Park, employees were sworn to secrecy (Grey 2012, 139), this is only one of 
-                        the many measures that were put into place to ensure that their operations remained hidden. This 
-                        organizational control also played a role in the gender dynamics that existed at Bletchley Park. For a 
-                        long time, the work of female employees was concealed to the public (Abbate 2012, 34) despite their 
-                        contributions to early computing. 
+                        While working at Bletchley Park, employees were sworn to secrecy (Grey 2012, 139) to ensure that their 
+                        operations remained hidden. Organizational control also played a role in the gender dynamics that existed 
+                        at Bletchley Park. For a long time, the work of female employees was concealed to the public (Abbate 2012, 34) 
+                        despite their contributions to early computing. 
                         </p>
                     </Grid>
                     <Grid item xs={6} >
-                        <img src={wrensCropped} style={{width:'90%', paddingTop: '5%', paddingBottom: '30%'}}/>
+                        <img src={workersModified} style={{width:'90%', paddingTop: '5%', paddingBottom: '30%'}}/>
                     </Grid>
                 </Grid>
             </Box>
