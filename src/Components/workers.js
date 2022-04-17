@@ -36,7 +36,9 @@ function Workers(props) {
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
                         <img src={bletchleyParkMap} style={{ width:'80%', paddingLeft:'10%', paddingTop: '40%'}}/>
-                        <p style={{textAlign: 'center'}}>Figure 2: A photograph of the Bletchley Park Map (Leigh-Stover, n.d.)</p>
+                        <p style={{textAlign: 'left', paddingLeft: '10%', paddingRight: '10%'}}>
+                            Figure 2: A photograph of a Bletchley Park map showing the division of operations 
+                            into different blocks and huts (Leigh-Stover, n.d.)</p>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>Secrecy</h1>
@@ -52,9 +54,11 @@ function Workers(props) {
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
                     <Grid item xs={5} >
                         <img src={wrens} style={{ width:'70%', paddingLeft:'15%', paddingTop: '40%'}}/>
-                        <p style={{textAlign: 'center'}}>Figure 3: A photograph of the Wrens at Bletchley Park (Robinson, n.d.)</p>
+                        <p style={{textAlign: 'left', paddingLeft: "15%", paddingRight:'15%'}}>
+                            Figure 3: A photograph of the Wrens at Bletchley Park (Robinson, n.d.)</p>
                         <img src={wrensOperatingColossus} style={{width:'70%', paddingLeft:'15%', paddingTop: '20%'}}/>
-                        <p style={{textAlign: 'center', paddingBottom: '10%'}}>Figure 4: A photograph of a female operator (History Extra, n.d.)</p>
+                        <p style={{textAlign: 'left', paddingLeft: '15%', paddingRight: '15%', paddingBottom: '10%'}}>
+                            Figure 4: A photograph of a female operator (History Extra, n.d.)</p>
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '10%'}}>The Wrens</h1>
