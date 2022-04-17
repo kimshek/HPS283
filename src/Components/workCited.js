@@ -1,7 +1,8 @@
 
 function WorkCited(props) {
     return (
-        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%", paddingBottom: '10%'}}>
+        <div>
+        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}>
         Abbate, Janet. 2012. “Breaking Codes and Finding Trajectories: Women at the Dawn of the
         Digital Age.”<i> Recoding Gender: Women’s Changing Participation in Computing. </i><br/>
         &emsp; &emsp; Cambridge, MA: MIT Press, 
@@ -37,9 +38,9 @@ function WorkCited(props) {
         Hill, Marion. 2004. <i>Bletchley Park People : Churchill’s “Geese That Never Cackled.”</i> Stroud,
         Gloucestershire: Sutton 
         <br /> <br /> 
-        History of Information. n.d “The Williams Tube and the<br /> &emsp; &emsp;‘Manchester Baby,’ the First
-        Operational Stored-Program Computer Runs Its First Program.” History of Information.
-        Accessed March 7, 2022.<br />&emsp; &emsp; https://www.historyofinformation.com/detail.php?id=672.  
+        History of Information. n.d “The Williams Tube and the ‘Manchester Baby,’ the First
+        Operational Stored-Program Computer Runs Its First Program.” History of Information. <br />&emsp; &emsp;
+        Accessed March 7, 2022. https://www.historyofinformation.com/detail.php?id=672.  
         <br /> <br /> 
         Leigh-Stover, MaryEllen. n.d. <i>Code Breaker.</i> Pinterest.
         https://www.pinterest.ca/pin/70509550394766197/ 
@@ -47,9 +48,8 @@ function WorkCited(props) {
         London Mathematical Society. n.d. <i>Maxwell (Max) Newman</i>. Communications of the ACM.
         https://cacm.acm.org/magazines/2013/5/163760-max-newman/fulltext 
         <br /> <br /> 
-
         McKay, Sinclair. 2012. <i>The Secret Life of Bletchley Park: The WWII Codebreaking Centre
-        and the Men and Women Who Worked There</i>. London: Aurum.<br />
+        and the Men and Women Who Worked There</i>. London: Aurum.
         <br /> <br /> 
         Robinson, Geoff. n.d. Medium.
         https://geneticjen.medium.com/women-in-tech-history-bletchley-park-49f69f1a1510 
@@ -57,7 +57,7 @@ function WorkCited(props) {
         Smith, Christopher. 2017. <i>The Hidden History of Bletchley Park: A Social and Organisational
         History, 1939-1945</i>. London: Palgrave Macmillan. 
         <br /> <br /> 
-       Sanchez Margallo, Juan Alberto. 2017. <i>Turing test diagram</i>. March 22, 2017. Wikipedia.
+        Sanchez Margallo, Juan Alberto. 2017. <i>Turing test diagram</i>. March 22, 2017. Wikipedia.
         https://en.wikipedia.org/wiki/Turing_test 
         <br /> <br /> 
 
@@ -77,10 +77,16 @@ function WorkCited(props) {
         &emsp; &emsp;https://www.nationalww2museum.org/war/articles/alan-turing-betchley-park 
         <br /> <br /> 
         <br /> <br />
-        <br /> <br />
+        </p>
 
-        Due to the medium we chose, the homepage images were not cited on the page. Below are the citations for those images in order of top to bottom, left to right.
-        <br /> <br />
+        
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>Homepage Citations</h1>
+        <p style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>
+        Due to the medium that we chose, we decided not to cite the homepage images directly on the page. <br /> 
+        Below are the citations for those images in order of top to bottom, left to right.
+        <br /> <br /> 
+        </p>
+        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%", paddingBottom: '10%'}}>
         PA Media. n.d. BBC. https://www.bbc.com/news/uk-54604895
         <br /> <br /> 
         <i>Female codebreakers: the women of 
@@ -92,6 +98,7 @@ function WorkCited(props) {
         London Mathematical Society. n.d. <i>Maxwell (Max) Newman</i>. Communications of the ACM.
         https://cacm.acm.org/magazines/2013/5/163760-max-newman/fulltext 
         </p>
+        </div>
         
     )
 }
