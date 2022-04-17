@@ -119,7 +119,7 @@ export default function Header() {
         
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}> Timeline of Major Events </h1>
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%", paddingTop: '2%'}}> Timeline of Major Events </h1>
         <Timeline/>
       </TabPanel>
       <TabPanel value={value} index={2}>
@@ -132,7 +132,7 @@ export default function Header() {
         <MaxNewman/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>Bibliography</h1>
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%", paddingTop: '2%'}}>Bibliography</h1>
         <WorksCited/>
       </TabPanel>
     </Box>

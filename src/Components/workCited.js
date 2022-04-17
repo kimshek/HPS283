@@ -1,7 +1,7 @@
 
 function WorkCited(props) {
     return (
-        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}>
+        <p style={{textAlign: 'left', color:'black', paddingLeft: "2%", paddingBottom: '10%'}}>
         Abbate, Janet. 2012. “Breaking Codes and Finding Trajectories: Women at the Dawn of the
         Digital Age.” Recoding Gender: Women’s Changing Participation in Computing. <br /> 
         &emsp; &emsp; Cambridge, MA: MIT Press, 
