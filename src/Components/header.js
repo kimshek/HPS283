@@ -102,7 +102,7 @@ export default function Header() {
                     <img src={alanTuringCropped} style={{width:'70%', paddingLeft: '15%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(3)} style={{textAlign: 'center', color:'black'}}>Alan Turing</h1>
                         <p style={{textAlign: 'left', color:'black', paddingLeft: '15%', paddingRight: '15%', paddingBottom: '35%'}}>
-                        Alan Turing played a pivotal role in decryption of enemy messages during the war but also in the 
+                        Alan Turing played a pivotal role in the decryption of enemy messages during the war but also in the 
                         birth of artificial intelligence.
                         </p>
                 </Grid>
