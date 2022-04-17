@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import '../Style/style.css'
 import Timeline from './timeline';
-import WorkCited from './workCited';
+import WorksCited from './workCited';
 import Workers from './workers';
 import AlanTuring from './alanTuring';
 import MaxNewman from './maxNewman';
@@ -132,8 +132,8 @@ export default function Header() {
         <MaxNewman/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <h1 style={{textAlign: 'left', color:'black', paddingLeft: "2%"}}> Work Cited</h1>
-        <WorkCited/>
+        <h1 style={{textAlign: 'center', color:'black', paddingLeft: "2%"}}>Bibliography</h1>
+        <WorksCited/>
       </TabPanel>
     </Box>
     <div style={{position:'fixed', bottom: '0',left:'0', right:'0'}}> 
@@ -149,7 +149,7 @@ export default function Header() {
             <Tabs value={bottomTabsHandler()} aria-label="basic tabs" sx={{ float:'right'}} 
               TabIndicatorProps={{style: {backgroundColor: "#fff"}}} >
               <Tab onClick={() =>setValue(0)} label={<span style={{ color: 'white' }}>Home</span>} {...a11yProps(0)} />
-              <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Work Cited</span>} {...a11yProps(1)} />
+              <Tab onClick={() =>setValue(5)} label={<span style={{ color: 'white' }}>Works Cited</span>} {...a11yProps(1)} />
             </Tabs>
           </Box>
         </Grid>
