@@ -89,7 +89,7 @@ function Timeline(props) {
                 >
                     <h3 className="vertical-timeline-element-title">Closure of Bletchley Park</h3>
                     <h4 className="vertical-timeline-element-subtitle">1946</h4>
-                    <p> In 1946, wartime codebreaking operations at Bletchely Park ceased (Grey 2012, 278).
+                    <p> In 1946, wartime code breaking operations at Bletchley Park ceased (Grey 2012, 278).
                     </p>
                 </VerticalTimelineElement>
 

@@ -17,7 +17,7 @@ function Home(props) {
                 <p style={{paddingTop: "1%"}}>
                 In 1938 in Buckinghamshire, England, little did the locals know of the operations that would soon take place in 
                 their small town of Bletchley (Smith 2017, 148). Bletchley Park would eventually become the birthplace for 
-                groundbreaking innovation in computation and codebreaking. The workers of Bletchley Park, including those a part 
+                ground-breaking innovation in computation and codebreaking. The workers of Bletchley Park, including those a part 
                 of the Women’s Royal Naval Service, coined Wrens, aided in war efforts by operating the “first large-scale 
                 electronic computer[s]” (Copeland, n.d.c) to intercept encoded enemy messages (Abbate 2012, 15-16). Bletchley Park 
                 would be shrouded in immense secrecy even after its operations eventually ceased in 1946 after World War II 

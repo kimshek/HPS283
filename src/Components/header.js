@@ -94,7 +94,7 @@ export default function Header() {
                     <img src={wrensCropped} style={{width:'70%', paddingLeft: '25%', paddingTop: '10%'}}/>
                     <h1 onClick={() =>setValue(2)} style={{textAlign: 'center', color:'black', paddingLeft:'20%'}}> The Workers</h1>
                         <p style={{textAlign: 'left', color:'black', paddingLeft: '25%', paddingBottom: '35%', paddingRight: '5%'}}>
-                        Sworn to secrey, the contributions of the workers, including those of the Wrens, would 
+                        Sworn to secrecy, the contributions of the workers, including those of the Wrens, would 
                         stay hidden from the public even years after operations ceased.
                         </p>
                 </Grid>
