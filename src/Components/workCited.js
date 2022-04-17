@@ -97,6 +97,8 @@ function WorkCited(props) {
         <br /> <br /> 
         London Mathematical Society. n.d. <i>Maxwell (Max) Newman</i>. Communications of the ACM.
         https://cacm.acm.org/magazines/2013/5/163760-max-newman/fulltext 
+        <br /> <br /> 
+        <i>One of the UK's big hitters in their decoding arsenal – the Turing Bombe machine</i>. N.d. Forces. https://www.forces.net/news/bletchley-park-key-ww2-victory
         </p>
         </div>
         

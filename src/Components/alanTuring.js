@@ -36,7 +36,7 @@ function AlanTuring(props) {
                         <img src={enigma} style={{ width:'40%', paddingLeft:'30%', paddingTop: '15%'}}/>
                         <p style={{textAlign: 'left', paddingLeft: '30%', paddingRight:'20%'}}>
                             Figure 2: A photograph of the Enigma machine (Smithsonian Magazine, n.d.)</p>
-                        <img src={bombe} style={{width:'40%', paddingLeft:'30%', paddingTop: '10%' }}/>
+                        <img src={bombe} style={{width:'40%', paddingLeft:'30%', paddingTop: '5%' }}/>
                         <p style={{textAlign: 'left', paddingLeft: '30%', paddingRight:'20%'}}>
                             Figure 3: A photograph of the Bombe (Wikipedia, n.d.)</p>
                     </Grid>
@@ -51,13 +51,17 @@ function AlanTuring(props) {
 
             <Box style={{backgroundColor:"white"}}>
                 <Grid container spacing={1} sx={{ backgroundColor: 'white'}}>
-                    <Grid item xs={5} >
-                        <img src={turingTest} style={{ width:'60%', paddingLeft:'20%', paddingTop: '35%'}}/>
-                        <p style={{textAlign: 'left', paddingLeft: '20%', paddingRight:'15%'}}>
-                            Figure 4: A diagram of the Turing Test (Sanchez Margallo 2017)</p>
+                    <Grid item alignContent='center' justfyContent='center' xs={5} >
                     </Grid>
                     <Grid item xs={7}>
                         <h1 style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingTop: '5%'}}>After the War</h1>
+                    </Grid>
+                    <Grid item xs={5} >
+                        <img src={turingTest} style={{ width:'60%', paddingLeft:'20%'}}/>
+                        <p style={{textAlign: 'left', paddingLeft: '20%', paddingRight:'15%', paddingBottom: '20%'}}>
+                            Figure 4: A diagram of the Turing Test (Sanchez Margallo 2017)</p>
+                    </Grid>
+                    <Grid item xs={7}>
                         <p style={{textAlign: 'left', color:'black', paddingRight: '10%', paddingBottom: '20%'}}>
                         After the war, Alan Turing still had a major influence on the world we live in today through his thoughts on artificial intelligence. During his time at Bletchley Park, Turing spoke about his ideas on intelligent computers to his peers. Turing saw great potential in what was possible with the machines he was working with. Although he never got to see it in action, he started to wonder and share these possibilities with others. In one case, he spoke about a computer’s ability to play chess by changing its own program due to its experience (Copeland, n.d.b). Similar to the Chess-Playing Turk, he had a vision of a machine that seemed to learn and think on its own and hide the underlying logic and mechanics behind these decisions. <br />  <br />
                         Although Alan Turing was never able to formally talk about the work he did in Bletchley Park due to secrecy, his experience there showed him what was possible with technology. He continued to speak about machine intelligence, share his ideas, and shape what we know today as artificial intelligence. Soon after the war ended, he published a paper on machine intelligence that included details about the Turing Test. This test is still in use today where a computer attempts to make a human believe it is also a human and has yet to be passed by a machine (Copeland, n.d.b). Today, artificial intelligence is used in many facets of our lives, however problems have arisen due to the training of these machines. As humans train machines using human picked data, biases creep into these systems and can lead unwanted outcomes such as discrimination and oppression.
